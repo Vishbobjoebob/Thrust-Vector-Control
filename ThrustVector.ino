@@ -86,7 +86,7 @@ void setup()
   }
 
   // Calibration
-  /*
+  
   Serial.println("Calibrating Inertials...");
   uint8_t system, gyro, accel, mg = 0;
   delay(1000) ;
@@ -113,7 +113,7 @@ void setup()
     counter += 1;
   }
   delay(1000) ;
-*/
+
   //BMP Initilization
   int8_t temp=bno.getTemp();
   
